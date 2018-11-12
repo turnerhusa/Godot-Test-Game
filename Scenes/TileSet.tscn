@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/brick_tiles_1.png" type="Texture" id=1]
+
+[node name="TileSet" type="Node2D" index="0"]
+
+[node name="BrickOne" type="Sprite" parent="." index="0"]
+
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 1, 32, 32 )
+_sections_unfolded = [ "Region", "Transform" ]
+
+[node name="BrickTwo" type="Sprite" parent="." index="1"]
+
+position = Vector2( 32, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 34, 1, 32, 32 )
+_sections_unfolded = [ "Region" ]
+
+[node name="BrickThree" type="Sprite" parent="." index="2"]
+
+position = Vector2( 64, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 67, 1, 32, 32 )
+_sections_unfolded = [ "Region", "Transform" ]
+
+[node name="BrickFour" type="Sprite" parent="." index="3"]
+
+position = Vector2( 96, 0 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 100, 1, 32, 32 )
+_sections_unfolded = [ "Region" ]
+
+
